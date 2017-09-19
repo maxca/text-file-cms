@@ -1,0 +1,37 @@
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background-color: #f3e6d3 ;
+  padding: 0px;
+  margin: 0px;
+}
+.no-padding {
+  padding: 0px;
+}
+.black-ribbon {
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  left: 0px;
+}
+/*Desktop*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  }
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  }
+/*Mobile*/
+@media (max-width: 768px) {
+  .black-ribbon {
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+    left: 0px;
+    width: 90px;
+  }
+   }
