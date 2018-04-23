@@ -42,9 +42,6 @@
                 </li>
             @endauth
 
-            <li class="{{ Active::pattern('admin/transaction/*') }}">
-                <a href="{!! route('transaction.list') !!}">URL Generate</a>
-            </li>
 
             @if($user == 'Administrator')
             <li class="{{ Active::pattern('admin/log-viewer*') }} treeview">
